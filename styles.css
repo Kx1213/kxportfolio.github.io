@@ -198,35 +198,113 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
 
+    /* Header */
+    header {
+        padding: 14px 18px;
+    }
+
     nav {
         flex-direction: column;
-        gap: 15px;
+        gap: 12px;
+    }
+
+    nav h1 {
+        font-size: 22px;
     }
 
     nav ul {
-        gap: 16px;
+        gap: 14px;
         flex-wrap: wrap;
         justify-content: center;
     }
 
+    nav a {
+        font-size: 14px;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 60px 20px 30px;
+    }
+
     .hero h2 {
-        font-size: 42px;
+        font-size: 38px;
+        line-height: 1.1;
+        letter-spacing: -1.5px;
     }
 
     .hero p {
-        font-size: 18px;
+        font-size: 17px;
+        line-height: 1.5;
+        padding: 0 10px;
     }
 
     .hero-image img {
-        width: 200px;
-        height: 200px;
+        width: 160px;
+        height: 160px;
+        margin-bottom: 25px;
+    }
+
+    /* Sections */
+    section {
+        padding: 20px 18px;
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 34px;
+        margin-bottom: 24px;
+    }
+
+    /* About */
+    #about p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    /* Cards */
+    .card {
+        padding: 16px;
+        border-radius: 22px;
+        margin-bottom: 22px;
     }
 
     .card h3 {
         font-size: 22px;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+
+    .card img,
+    .card video,
+    .card iframe {
+        border-radius: 16px;
+    }
+
+    /* Embedded YouTube */
+    iframe {
+        height: 220px;
+    }
+
+    /* Contact */
+    #contact p {
+        font-size: 15px;
+        word-break: break-word;
+    }
+
+    /* Footer */
+    footer {
+        padding: 30px 20px;
+        font-size: 14px;
+    }
+
+    /* Back to top button */
+    #backToTop {
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+        bottom: 18px;
+        right: 18px;
     }
 }
